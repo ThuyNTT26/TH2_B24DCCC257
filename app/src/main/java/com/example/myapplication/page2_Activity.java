@@ -59,7 +59,6 @@ public class page2_Activity extends AppCompatActivity {
         rvUpcomingTasks.setLayoutManager(new LinearLayoutManager(this));
         rvUpcomingTasks.setAdapter(upcomingAdapter);
 
-        // Register Activity Result Launcher for Screen 3
         addTaskLauncher = registerForActivityResult(
                 new ActivityResultContracts.StartActivityForResult(),
                 result -> {

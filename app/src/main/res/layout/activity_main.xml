@@ -91,6 +91,15 @@
             android:textStyle="bold"
             android:backgroundTint="#1976D2"
             android:textColor="#FFFFFF" />
+        <TextView
+            android:id="@+id/tvDangKy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chưa có tài khoản? đăng ký ngay"
+            android:textColor="#0000FF"
+            android:textStyle="italic"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center" />
 
     </LinearLayout>
 </ScrollView>

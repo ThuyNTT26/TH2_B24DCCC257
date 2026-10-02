@@ -44,8 +44,6 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
         } else {
             holder.layoutNote.setVisibility(View.GONE);
         }
-
-        // Reset listener before setting checked state to avoid unwanted triggers during scroll/rebind
         holder.cbTask.setOnCheckedChangeListener(null);
         holder.cbTask.setChecked(task.isCompleted());
 
